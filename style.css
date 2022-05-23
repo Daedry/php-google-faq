@@ -8,6 +8,9 @@
 }
 
 /* COMMON */
+.container {
+  max-width: 720px;
+}
 
 li {
   list-style: none;
@@ -23,6 +26,10 @@ li {
   justify-content: space-between;
 }
 
+.m-auto{
+  margin: auto;
+}
+
 /* HEADER */
 
 .nav {
@@ -36,6 +43,7 @@ li {
 
 .logo > img {
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .nav-text {
@@ -60,6 +68,10 @@ h4 {
   height: 24px;
   background-color: orangered;
   border-radius: 50%;
+}
+
+.user:hover{
+  cursor: pointer;
 }
 
 .user > p {
@@ -93,12 +105,11 @@ h4 {
 
 /* MAIN */
 
-.container {
-  max-width: 720px;
-  margin: 4.25rem auto;
+main > .container {
+  margin-top: 4.25rem;
 }
 
-.frequent-questions{
+.frequent-questions {
   margin-bottom: 2.22rem;
 }
 
@@ -113,4 +124,38 @@ h4 {
 
 .answer > p {
   font-size: 11px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 50px;
+  background-color: #f5f5f5;
+  line-height: 2.55;
+  border-top: 1px solid #fefefe;
+}
+
+.left-side > ul > li{
+  font-size: 9px;
+  padding: .8rem .33rem 0;
+  font-weight: 300;
+}
+
+.left-side > ul > li:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.right-side > select{
+  width: 133px;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 9px;
+  margin-top: 1rem;
+}
+
+.fa-language{
+  padding: 1rem .33rem 0;
+  font-size: 19px;
 }
