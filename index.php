@@ -39,10 +39,263 @@ $main_content = [
     ]
 ];
 
-$footer = ['Google', 'Tutto su Google', 'Privacy', 'Termini'];
+$footer = [
+    'infos' => ['Google', 'Tutto su Google', 'Privacy', 'Termini'],
+    'languages' => [
+        [
+            'language' => 'Afrikaans',
+            'code-lang' => 'af'
+        ],
+        [
+            'language' => 'Bahasa Indonesia',
+            'code-lang' => 'id'
+        ],
+        [
+            'language' => 'Bahasa Melayu',
+            'code-lang' => 'ms'
+        ],
+        [
+            'language' => 'Català',
+            'code-lang' => 'ca'
+        ],
+        [
+            'language' => 'Čeština',
+            'code-lang' => 'cs'
+        ],
+        [
+            'language' => 'Dansk',
+            'code-lang' => 'da'
+        ],
+        [
+            'language' => 'Deutsch',
+            'code-lang' => 'de'
+        ],
+        [
+            'language' => 'Eesti',
+            'code-lang' => 'et'
+        ],
+        [
+            'language' => 'English',
+            'code-lang' => 'en'
+        ],
+        [
+            'language' => 'English (United Kingdom)',
+            'code-lang' => 'en-GB'
+        ],
+        [
+            'language' => 'Español',
+            'code-lang' => 'es'
+        ],
+        [
+            'language' => 'Español (Latinoamérica)',
+            'code-lang' => 'es-419'
+        ],
+        [
+            'language' => 'Euskara',
+            'code-lang' => 'eu'
+        ],
+        [
+            'language' => 'Filipino',
+            'code-lang' => 'fill'
+        ],
+        [
+            'language' => 'Français',
+            'code-lang' => 'fr'
+        ],
+        [
+            'language' => 'Français (Canada)',
+            'code-lang' => 'fr-CA'
+        ],
+        [
+            'language' => 'Galego',
+            'code-lang' => 'gl'
+        ],
+        [
+            'language' => 'Hrvatski',
+            'code-lang' => 'hr'
+        ],
+        [
+            'language' => 'Isizulu',
+            'code-lang' => 'zu'
+        ],
+        [
+            'language' => 'Íslenska',
+            'code-lang' => 'is'
+        ],
+        [
+            'language' => 'Italiano',
+            'code-lang' => 'it'
+        ],
+        [
+            'language' => 'Kiswahili',
+            'code-lang' => 'sw'
+        ],
+        [
+            'language' => 'Latviešu',
+            'code-lang' => 'lv'
+        ],
 
+        [
+            'language' => 'Lietuvių',
+            'code-lang' => 'lt'
+        ],
+        [
+            'language' => 'Magyar',
+            'code-lang' => 'hu'
+        ],
+        [
+            'language' => 'Nederlands',
+            'code-lang' => 'nl'
+        ],
+        [
+            'language' => 'Norsk',
+            'code-lang' => 'no'
+        ],
+        [
+            'language' => 'Polski',
+            'code-lang' => 'pl'
+        ],
+        [
+            'language' => 'Português (Brasil)',
+            'code-lang' => 'pt--BR'
+        ],
+        [
+            'language' => 'Português (Portugal)',
+            'code-lang' => 'pt-PT'
+        ],
+        [
+            'language' => 'Română',
+            'code-lang' => 'ro'
+        ],
+        [
+            'language' => 'Slovenčina',
+            'code-lang' => 'sl'
+        ],
+        [
+            'language' => 'Srpski',
+            'code-lang' => 'sr-Latn'
+        ],
+        [
+            'language' => 'Suomi',
+            'code-lang' => 'fi'
+        ],
+        [
+            'language' => 'Svenska',
+            'code-lang' => 'sv'
+        ],
+        [
+            'language' => 'Tiếng Việt',
+            'code-lang' => 'vi'
+        ],
+        [
+            'language' => 'Türkçe',
+            'code-lang' => 'tr'
+        ],
+        [
+            'language' => 'Ελληνικά',
+            'code-lang' => 'el'
+        ],
+        [
+            'language' => 'Български',
+            'code-lang' => 'bg'
+        ],
+        [
+            'language' => 'Русский',
+            'code-lang' => 'ru'
+        ],
+        [
+            'language' => 'Српски',
+            'code-lang' => 'sr'
+        ],
+        [
+            'language' => 'Українська',
+            'code-lang' => 'uk'
+        ],
+        [
+            'language' => '&#x202B;עברית&#x202C;',
+            'code-lang' => 'iw'
+        ],
+        [
+            'language' => '&#x202B;اردو&#x202C;',
+            'code-lang' => 'ur'
+        ],
+        [
+            'language' => '&#x202B;العربية&#x202C;',
+            'code-lang' => 'ar'
+        ],
+        [
+            'language' => '&#x202B;فارسی&#x202C;',
+            'code-lang' => 'fa'
+        ],
+        [
+            'language' => 'አማርኛ',
+            'code-lang' => 'am'
+        ],
+        [
+            'language' => 'मराठी',
+            'code-lang' => 'mr'
+        ],
+        [
+            'language' => 'हिन्दी',
+            'code-lang' => 'hi'
+        ],
+        [
+            'language' => 'বাংলা',
+            'code-lang' => 'bn'
+        ],
+        [
+            'language' => 'ગુજરાતી',
+            'code-lang' => 'gu'
+        ],
+        [
+            'language' => 'தமிழ்',
+            'code-lang' => 'ta'
+        ],
+        [
+            'language' => 'తెలుగు',
+            'code-lang' => 'te'
+        ],
+        [
+            'language' => 'ಕನ್ನಡ',
+            'code-lang' => 'kn'
+        ],
+        [
+            'language' => 'മലയാളം',
+            'code-lang' => 'ml'
+        ],
+        [
+            'language' => 'ไทย',
+            'code-lang' => 'th'
+        ],
+        [
+            'language' => '한국어',
+            'code-lang' => 'ko'
+        ],
+        [
+            'language' => '中文 (香港)',
+            'code-lang' => 'zh-HK'
+        ],
+        [
+            'language' => '中文（简体中文）',
+            'code-lang' => 'zh-CN'
+        ],
+        [
+            'language' => '中文（繁體中文）',
+            'code-lang' => 'zh-TW'
+        ],
+        [
+            'language' => '日本語',
+            'code-lang' => 'ja'
+        ],
+
+    ]
+];
 
 $nav_list = $header['nav-list'];
+
+// var_dump($footer['languages'][20]['language']);
+
+$lang_ita = $footer['languages'][20]['language'];
 
 
 ?>
@@ -123,7 +376,7 @@ $nav_list = $header['nav-list'];
             <div class="infos d-flex j-space-b">
                 <div class="left-side">
                     <ul class="d-flex">
-                        <?php foreach ($footer as $info) : ?>
+                        <?php foreach ($footer['infos'] as $info) : ?>
                             <li>
                                 <?= $info ?>
                             </li>
@@ -135,69 +388,11 @@ $nav_list = $header['nav-list'];
                 <div class="right-side d-flex">
                     <i class="fas fa-language"></i>
                     <label for="language"></label>
-                    <select class="iCthae" id="i3" jsname="O1htCb">
-                        <option value="af">Afrikaans</option>
-                        <option value="id">Bahasa Indonesia</option>
-                        <option value="ms">Bahasa Melayu</option>
-                        <option value="ca">Català</option>
-                        <option value="cs">Čeština</option>
-                        <option value="da">Dansk</option>
-                        <option value="de">Deutsch</option>
-                        <option value="et">Eesti</option>
-                        <option value="en">English</option>
-                        <option value="en-GB">English (United Kingdom)</option>
-                        <option value="es">Español</option>
-                        <option value="es-419">Español (Latinoamérica)</option>
-                        <option value="eu">Euskara</option>
-                        <option value="fil">Filipino</option>
-                        <option value="fr">Français</option>
-                        <option value="fr-CA">Français (Canada)</option>
-                        <option value="gl">Galego</option>
-                        <option value="hr">Hrvatski</option>
-                        <option value="zu">Isizulu</option>
-                        <option value="is">Íslenska</option>
-                        <option selected="" value="it">Italiano</option>
-                        <option value="sw">Kiswahili</option>
-                        <option value="lv">Latviešu</option>
-                        <option value="lt">Lietuvių</option>
-                        <option value="hu">Magyar</option>
-                        <option value="nl">Nederlands</option>
-                        <option value="no">Norsk</option>
-                        <option value="pl">Polski</option>
-                        <option value="pt-BR">Português (Brasil)</option>
-                        <option value="pt-PT">Português (Portugal)</option>
-                        <option value="ro">Română</option>
-                        <option value="sk">Slovenčina</option>
-                        <option value="sl">Slovenščina</option>
-                        <option value="sr-Latn">Srpski</option>
-                        <option value="fi">Suomi</option>
-                        <option value="sv">Svenska</option>
-                        <option value="vi">Tiếng Việt</option>
-                        <option value="tr">Türkçe</option>
-                        <option value="el">Ελληνικά</option>
-                        <option value="bg">Български</option>
-                        <option value="ru">Русский</option>
-                        <option value="sr">Српски</option>
-                        <option value="uk">Українська</option>
-                        <option value="iw">&#x202B;עברית&#x202C;</option>
-                        <option value="ur">&#x202B;اردو&#x202C;</option>
-                        <option value="ar">&#x202B;العربية&#x202C;</option>
-                        <option value="fa">&#x202B;فارسی&#x202C;</option>
-                        <option value="am">አማርኛ</option>
-                        <option value="mr">मराठी</option>
-                        <option value="hi">हिन्दी</option>
-                        <option value="bn">বাংলা</option>
-                        <option value="gu">ગુજરાતી</option>
-                        <option value="ta">தமிழ்</option>
-                        <option value="te">తెలుగు</option>
-                        <option value="kn">ಕನ್ನಡ</option>
-                        <option value="ml">മലയാളം</option>
-                        <option value="th">ไทย</option>
-                        <option value="ko">한국어</option>
-                        <option value="zh-HK">中文 (香港)</option>
-                        <option value="zh-CN">中文（简体中文）</option>
-                        <option value="zh-TW">中文（繁體中文）</option>
-                        <option value="ja">日本語</option>
+                    <select id="language">
+                        <?php foreach ($footer['languages'] as $data) : ?>
+                            <option value="<?= $data['code-lang'] ?>"><?= $data['language'] ?></option>
+                        <?php endforeach; ?>
+                        <option selected="" value=""><?= $lang_ita ?></option>
                     </select>
                 </div>
                 <!-- /.right-side -->

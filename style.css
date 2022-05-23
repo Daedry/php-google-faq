@@ -142,7 +142,7 @@ footer {
 }
 
 .left-side > ul > li:hover{
-  transform: scale(1.01);
+  transform: scale(1.22);
   cursor: pointer;
   font-weight: 400;
 }
