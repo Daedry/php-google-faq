@@ -4,7 +4,7 @@ $header = [
     'logo' => 'https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg',
     'text' => 'Privacy & Termini',
     'user' => 'R',
-    'navbar' => ['Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti']
+    'nav-list' => ['Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti']
 ];
 
 $main_content = [
@@ -43,6 +43,9 @@ $main_content = [
 $footer = ['Google', 'Tutto su Google', 'Privacy', 'Termini'];
 
 
+$nav_list = $header['nav-list'];
+
+// var_dump(count($nav_list));
 ?>
 
 <!DOCTYPE html>
@@ -53,13 +56,46 @@ $footer = ['Google', 'Tutto su Google', 'Privacy', 'Termini'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> </title>
-    <link rel="stylesheet" href="./style.scss">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
+    <header class="site-header">
+        <div class="nav">
+            <div class="nav-top d-flex j-space-b">
 
+                <div class="nav-left d-flex">
+                    <div class="logo">
+                        <img height="19px" src="<?= $header['logo'] ?>" alt="">
+                    </div>
+                    <div class="nav-text">
+                        <h4> <?= $header['text'] ?> </h4>
+                    </div>
+                </div>
+                <!-- /.nav-left -->
+
+                <div class="nav-right d-flex">
+                    <i class="fas fa-th"></i>
+                    <div class="user">
+                        <p><?= $header['user'] ?></p>
+                    </div>
+                </div>
+            </div><!-- /.nav-top -->
+            <div class="nav-bot">
+                <ul class="d-flex">
+                    <?php foreach ($nav_list as $list) : ?>
+                        <li class=" <?= $list === 'Domande frequenti' ? 'nav-border-bot' : '' ?>"> <?= $list ?> </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <!-- /.nav-bot -->
+        </div>
+        <!-- /.nav -->
+
+    </header>
+    <!-- /.site-header -->
 
 </body>
 
