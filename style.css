@@ -139,10 +139,11 @@ footer {
   font-size: 9px;
   padding: .8rem .33rem 0;
   font-weight: 300;
+  transition: .22s;
 }
 
 .left-side > ul > li:hover{
-  transform: scale(1.22);
+  transform: scale(1.15);
   cursor: pointer;
   font-weight: 400;
 }
